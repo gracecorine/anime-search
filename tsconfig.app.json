@@ -30,7 +30,8 @@
       "@styles/*": ["src/styles/*"],
       "@services/*": ["src/services/*"],
       "@stores/*": ["src/stores/*"]
-    }
+    },
+    "ignoreDeprecations": "6.0"
   },
   "include": ["src"]
 }
