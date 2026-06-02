@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Nunito', sans-serif;
+    @apply bg-[#fdf6f0] dark:bg-[#0f0a1a] text-gray-800 dark:text-gray-100;
+  }
+}
